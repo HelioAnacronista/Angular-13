@@ -1,0 +1,54 @@
+.footer {
+    color: #fcfcfc;
+    position: fixed;
+    bottom: 0;
+    padding-top: 0.2rem;
+    display: flex;
+    justify-content: flex;
+    background-color: #050110;
+}
+
+.footer > span {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.footer > p {
+    color: #fcfcfc;
+}
+
+
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: 600;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.links {
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 59%;
+    display: flex;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+img {
+    width: 30px;
+}
+
