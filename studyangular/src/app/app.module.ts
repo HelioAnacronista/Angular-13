@@ -10,17 +10,24 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
-
+import {MatCardModule} from '@angular/material/card';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 //Componentes
 import { HeaderComponent } from './components/views/header/header.component';
 import { FooterComponent } from './components/views/footer/footer.component';
+import { NavComponent } from './components/template/nav/nav.component';
+import { ToListCrudComponent } from './components/template/to-list-crud/to-list-crud.component';
+import { HomeComponent } from './views/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NavComponent,
+    ToListCrudComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
@@ -29,7 +36,9 @@ import { FooterComponent } from './components/views/footer/footer.component';
     MatToolbarModule,
     MatIconModule,
     MatMenuModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule,
+    MatSidenavModule
     
   ],
   providers: [],

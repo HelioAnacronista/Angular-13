@@ -1,14 +1,11 @@
 <mat-toolbar class="mat-elevation-z8">
     <button mat-raised-button [matMenuTriggerFor]="menu">Menu</button>
         <mat-menu #menu="matMenu" class="menu">
-                <button mat-menu-item>abertos</button>
+                <button mat-menu-item>Abertos</button>
                 <button mat-menu-item>fechados</button>
         </mat-menu>
     <span class="example-spacer"></span>
-    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-      <mat-icon>favorite</mat-icon>
-    </button>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-      <mat-icon>share</mat-icon>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon" routerLink="/">
+      <mat-icon>reply_all</mat-icon>
     </button>
   </mat-toolbar>
